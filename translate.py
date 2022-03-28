@@ -46,8 +46,8 @@ def reverse_and_complement(sequence):
     reverse_seq = get_reverse(sequence)
     reverse_complement = get_complement(reverse_seq)
     return reverse_complement
-    #reverse_and_complement = reverse_and_complement(sequence)
-    #return reverse_and_complement
+    #rev_and_comp = reverse_and_complement(sequence)
+    #return rev_and_comp
 
 def translate_sequence(rna_sequence, genetic_code):
     """Translates a sequence of RNA into a sequence of amino acids.
